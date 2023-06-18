@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="Index.css">
+    <title>Logo 1</title>
+
+    <section class="h-100 gradient-form" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+              <div class="card rounded-3 text-black">
+                <div class="row g-0">
+                  <div class="col-lg-6">
+                    <div class="card-body p-md-5 mx-md-4">
+      
+                      <div class="text-center">
+                        <img src="./usum1.avif"
+                          style="width: 185px;" alt="logo">
+                        <h4 class="mt-1 mb-5 pb-1">Welcome to Usum Med Center Hospital</h4>
+                      </div>
+
+                      <center><p>Sign in With</p></center>
+                      <center><img src="./F1.jpg" height="32" weight="32"><img src="./T1.png" height="32" weight="32"><img src="./I1.png" height="32" weight="32"></center>
+                     
+                      <h3 style="color:white">H3</h3>
+      
+                      <form>
+                        <p>Please login to your account</p>
+      
+                        <div class="form-outline mb-4">
+                          <input type="email" id="email" class="form-control"
+                            placeholder="Phone number or email address" />
+                          <label class="form-label" for="form2Example11">email</label>
+                        </div>
+      
+                        <div class="form-outline mb-4">
+                          <input type="password" id="password" class="form-control" />
+                          <label class="form-label" for="form2Example22">Password</label>
+                        </div>
+      
+                        <div class="text-center pt-1 mb-5 pb-1">
+                          <input type="login" onclick="loggin(); return false"> 
+                          <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                            in</button>
+                          <a class="text-muted" href="#!"><center>Forgot your password?</center></a>
+                        </div>
+      
+                        <div class="d-flex align-items-center justify-content-center pb-4">
+                          <p class="mb-0 me-2">Don't have an account?</p>
+                          <button type="button" class="btn btn-outline-danger">Create new</button>
+                        </div>
+      
+                      </form>
+      
+                    </div>
+                  </div>
+
+                <script>
+                    function loggin(){
+            
+                       var email = document.getElementById('email').value;
+                       var password = document.getElementById('password').value;
+            
+                       if(email == "Usum-Petum160610@gmail.com" && password == "Hospital Administrator 01") {
+                           alert('sucess');
+                           location.href = "home.html";
+                       }else{
+                           alert('user or password incorrect');
+                       }            
+                    }
+                 </script>
+                 <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                    <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                        <center><img src="./h20.jpg" alt="centered image" height="180" weight="180"> </center>
+                      <h4 class="mb-4"><center>Know more About us</h4></center>
+                      <p class="small mb-0">We are the usum med center hospital , we are a great team, compound of thousand seven hundred employees, servicing the best work in the nursing field that we can, attending our pacients the best we can, and offering our cutting-edge technology to cure the most variables illnesses.</p>
+                     </div>
+                  </div>
+                </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
